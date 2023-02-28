@@ -203,3 +203,30 @@ i {
 .live:hover {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(135deg);
 }
+
+@media (max-width:420px){
+  .nav-list li {
+    font-size: 1.3rem;
+  }
+  #welcome-section {
+    margin-left: -2.7%;
+    height:114vh;
+  }
+  .hello {
+    text-align: center;
+    padding:0.1rem;
+  }
+  #projects {
+    width: 114%;
+    margin-left: -8px;
+    padding-bottom: 5rem;
+  }
+  #project-header {
+    max-width: 300px;
+    font-size: 90%;
+    border-bottom: 0.1rem solid white;
+    margin-top: 50px;
+    font-weight: 700;
+    color: white;
+  }
+}
