@@ -103,6 +103,7 @@ a {
   object-fit: cover;
   width: 25rem;
 }
+
 img {
   display: block;
 }
@@ -220,13 +221,18 @@ i {
     width: 114%;
     margin-left: -8px;
     padding-bottom: 5rem;
+    height:210vh;
   }
   #project-header {
     max-width: 300px;
     font-size: 90%;
     border-bottom: 0.1rem solid white;
     margin-top: 50px;
+    margin-bottom:-2rem;
     font-weight: 700;
     color: white;
+  }
+  .project-tile {
+    margin-left:1%;
   }
 }
