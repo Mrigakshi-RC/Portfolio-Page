@@ -218,7 +218,7 @@ i {
     padding:0.1rem;
   }
   #projects {
-    width: 114%;
+    width: 115.5%;
     margin-left: -8px;
     padding-bottom: 5rem;
     height:210vh;
@@ -234,5 +234,29 @@ i {
   }
   .project-tile {
     margin-left:1%;
+    max-width:20rem;
+  }
+  .project-image {
+    max-width: 23rem;
+  }
+  .text-container{
+    max-width:23rem;
+  }
+  .project-title{
+    font-size:1.1rem;
+  }
+  #show-all {
+    margin-left: -2rem;
+    margin-top: 83rem;
+  }
+  #contact {
+    width: 120.5%;
+    margin-left: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    margin-bottom: -1rem;
   }
 }
