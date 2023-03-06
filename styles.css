@@ -11,6 +11,11 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
@@ -28,6 +33,7 @@ body {
   width: 100%;
   justify-content: flex-end;
   background-color: #0b0c10;
+  padding:2rem;
 }
 .nav-list {
   display: flex;
@@ -35,7 +41,7 @@ body {
 .nav-list li {
   display: block;
   color: #c5c6c7;
-  margin-right: 60px;
+  margin-right: 5rem;
   font-size: 1.5rem;
 }
 a {
@@ -45,9 +51,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 120%;
+  width: 100%;
   height: 100vh;
-  margin-left: -10%;
+  height: 100vh;
   background-image: linear-gradient(62deg, #1f2833 0%, #0b0c10 100%);
 }
 .hello {
@@ -58,6 +64,7 @@ a {
   font-weight: 700;
   font-size: 180%;
   color: #66fcf1;
+  margin-bottom:1.5rem;
 }
 #dev {
   margin-top: -10px;
@@ -69,8 +76,8 @@ a {
   text-align: center;
   padding: 10px;
   background-color: #45a29e;
-  width: 100%;
-  margin-left: -10px;
+  /* width: 100%; */
+  /* margin-left: -10px; */
   padding-bottom: 5rem;
 }
 #project-header {
@@ -155,8 +162,8 @@ i {
 
 #contact {
   background-color: #1f2833;
-  margin-left: -50px;
-  width: 110%;
+  /* margin-left: -50px; */
+  /* width: 110%; */
   display: flex;
   justify-content: center;
   align-items: center;
