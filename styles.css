@@ -214,19 +214,19 @@ i {
 
 @media (max-width:420px){
   .nav-list li {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin-right:4rem;
+  }
+  #navbar {
+    justify-content: center;
   }
   #welcome-section {
-    margin-left: -2.7%;
-    height:114vh;
+    height:100vh;
   }
   .hello {
-    text-align: center;
     padding:0.1rem;
   }
   #projects {
-    /* width: 115.5%; */
-    margin-left: -8px;
     padding-bottom: 5rem;
     height:210vh;
   }
