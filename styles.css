@@ -228,10 +228,12 @@ i {
   }
   .hello {
     padding:0.1rem;
+    margin:1.5rem;
   }
   #projects {
-    padding-bottom: 5rem;
-    height:210vh;
+    padding: 5rem;
+    min-height:170vh;
+    max-height:230vh;
   }
   #project-header {
     max-width: 300px;
@@ -242,8 +244,12 @@ i {
     font-weight: 700;
     color: white;
   }
+  .projects-grid {
+    margin-left:-1rem;
+    margin-bottom: 6rem;
+    margin-top: 70px;
+  }
   .project-tile {
-    margin-left:1%;
     max-width:20rem;
   }
   .project-image {
@@ -268,5 +274,12 @@ i {
     flex-direction: column;
     padding: 100px 0;
     margin-bottom: -1rem;
+  }
+  .contact-header{
+    margin:0 4rem;
+    text-align:center;
+  }
+  .contact-info{
+    margin:5rem 0;
   }
 }
