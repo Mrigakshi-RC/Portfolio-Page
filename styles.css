@@ -109,6 +109,7 @@ a {
   box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
   object-fit: cover;
   width: 25rem;
+  height: 18rem;
 }
 
 img {
