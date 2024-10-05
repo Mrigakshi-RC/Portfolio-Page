@@ -211,7 +211,7 @@ i {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(135deg);
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   html {
     font-size: 80%;
   }
